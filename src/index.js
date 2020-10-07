@@ -2,18 +2,19 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 
-import users from './routes/users';
-import auth from './routes/auth';
-import events from './routes/events';
-import companyRoute from './routes/company';
-import boardRoute from './routes/board';
-import qnaRoute from './routes/qna';
-import ratingRoute from './routes/rating';
-import myInfoRoute from './routes/myinfo';
-import mailerRoute from './routes/mailer';
-import reportRoute from './routes/report';
-import forgotPasswordRoute from './routes/forgotPassword';
-import resetPasswordRoute from './routes/resetPassword';
+
+import users from './routes/users.js';
+import auth from './routes/auth.js';
+import events from './routes/events.js';
+import companyRoute from './routes/company.js';
+import boardRoute from './routes/board.js';
+import qnaRoute from './routes/qna.js';
+import ratingRoute from './routes/rating.js';
+import myInfoRoute from './routes/myinfo.js';
+import mailerRoute from './routes/mailer.js';
+import reportRoute from './routes/report.js';
+import forgotPasswordRoute from './routes/forgotPassword.js';
+import resetPasswordRoute from './routes/resetPassword.js';
 
 const io = require('socket.io')(5000)
 

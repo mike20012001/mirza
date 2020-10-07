@@ -1,7 +1,7 @@
 const express = require('express');
 const router = require('express').Router();
 const mongoose = require('mongoose')
-const Mail = require('../models/Mail')
+const Mail = require('../models/Mail.js')
 
 router.get('/', (req, res) => {
     res.status(200).send('hello')

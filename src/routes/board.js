@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose')
-import authenticate from '../middlewares/authenticate'
-const Board = require('../models/Board')
-const User = require('../models/User')
-const FreeboardComment = require('../models/FreeboardComment')
+import authenticate from '../middlewares/authenticate.js'
+const Board = require('../models/Board.js')
+const User = require('../models/User.js')
+const FreeboardComment = require('../models/FreeboardComment.js')
 
 function getCurrentDate(){
     let date = new Date();

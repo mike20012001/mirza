@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const isEmpty = require('lodash/isEmpty')
 
-import commonValidation from '../shared/validations/signup';
+import commonValidation from '../shared/validations/signup.js';
 
-const User = require('../models/User');
+const User = require('../models/User.js');
 
 
 

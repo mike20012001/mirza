@@ -1,9 +1,9 @@
-import User from '../models/User';
+import User from '../models/User.js';
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
-import History from '../models/History'
+import History from '../models/History.js'
 import { json } from 'body-parser';
-import authenticate from '../middlewares/authenticate'
+import authenticate from '../middlewares/authenticate.js'
 
 const router = require('express').Router();
 const nodemailer = require('nodemailer')

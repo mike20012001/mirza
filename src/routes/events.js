@@ -1,4 +1,4 @@
-import authenticate from '../middlewares/authenticate'
+import authenticate from '../middlewares/authenticate.js'
 
 const router = require('express').Router();
 

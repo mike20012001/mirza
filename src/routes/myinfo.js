@@ -1,13 +1,13 @@
 const express = require('express');
 const router = require('express').Router();
 const mongoose = require('mongoose')
-import authenticate from '../middlewares/authenticate'
-const Board = require('../models/Board')
-const User = require('../models/User')
-const FreeboardComment = require('../models/FreeboardComment')
-const Comments = require('../models/Comments')
-const Rating = require('../models/Rating')
-const History = require('../models/History')
+import authenticate from '../middlewares/authenticat.jse'
+const Board = require('../models/Board.js')
+const User = require('../models/User.js')
+const FreeboardComment = require('../models/FreeboardComment.js')
+const Comments = require('../models/Comments.js')
+const Rating = require('../models/Rating.js')
+const History = require('../models/History.js')
 
 
 

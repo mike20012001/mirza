@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose')
-const Comments = require('../models/Comments')
-const Rating = require('../models/Rating');
-const Company = require('../models/Company');
-const User = require('../models/User');
-import authenticate from '../middlewares/authenticate'
+const Comments = require('../models/Comments.js')
+const Rating = require('../models/Rating.js');
+const Company = require('../models/Company.js');
+const User = require('../models/User.js');
+import authenticate from '../middlewares/authenticate.js'
 
     //전체 회사에 등록된 직원
 router.get('/', async (req, res) => {

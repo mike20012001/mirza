@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose')
-import authenticate from '../middlewares/authenticate'
-const QnA = require('../models/QnA')
-const FreeboardComment = require('../models/FreeboardComment')
+import authenticate from '../middlewares/authenticate.js'
+const QnA = require('../models/QnA.js')
+const FreeboardComment = require('../models/FreeboardComment.js')
 
 
 function getCurrentDate(){

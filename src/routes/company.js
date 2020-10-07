@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Company = require('../models/Company')
-import authenticate from '../middlewares/authenticate'
+const Company = require('../models/Company.js')
+import authenticate from '../middlewares/authenticate.js'
 
 //const verify = require('./verifyToken');
 

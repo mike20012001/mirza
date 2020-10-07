@@ -1,9 +1,9 @@
 const router = require('express').Router();
 const mongoose = require('mongoose')
-const Messages = require('../models/Message')
+const Messages = require('../models/Message.js')
 const Pusher = require('pusher');
 
-import authenticate from '../middlewares/authenticate'
+import authenticate from '../middlewares/authenticate.js'
 
 
 router.get('/', authenticate, async (req, res) => {

@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const Report = require('../models/Report')
-import authenticate from '../middlewares/authenticate'
+const Report = require('../models/Report.js')
+import authenticate from '../middlewares/authenticate.js'
 
 
 router.post('/', authenticate, async (req, res) => {
